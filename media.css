@@ -1,0 +1,276 @@
+/* sm */
+@media  screen and (min-width:0px) and (max-width:478px) {
+    .sm_100{
+        width: 100%;
+    }
+    .sm_50{
+        width: 50%;
+    }
+    .sm_33{
+        width: 33%;
+    }
+    .sm_25{
+        width: 25%;
+    }
+
+      .tv_row2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-align: left;
+width: 90%;
+    }
+    .home_section{
+   padding-block: 2rem;
+    }
+    .phone_section{
+        padding-top: 1.3rem;
+    }
+    .play_section{
+        padding-block: 2rem;
+    }
+    .tv_section{
+        padding-block: 2rem;
+        text-align: center;
+    }
+    .tv_row1{
+        display: flex;
+        flex-direction:column ;
+     align-items: flex-start;
+     text-align: left;
+     width: 90%;
+
+    }
+    .tv_info h3{
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 1rem;
+        width: auto;
+        font-family: var(--h4_font_family);
+    }
+    .tv_row2 p{
+        width: 100%;
+    }
+    .phone_section p{
+        width: 70%;
+    }
+    .tv_img{
+        width: 100%;
+    }
+    .tv_img img{
+        width: 150%;
+        margin-left: -3rem;
+    }
+    .tv_row2{
+  
+        margin-top: 1rem;
+    }
+    .twiter_section{
+        /* padding-block: 2rem; */
+        /* height: 250px; */
+    }
+    .inner_twiter{
+        /* width: 70%; */
+    }
+
+    .laptop_section{
+        padding-top: 3rem;
+    }
+    .experiance_section{
+        padding-block: 2rem;
+    }
+    .watch_section{
+        padding-bottom: 1rem;
+    }
+    .phone_section,
+.tv_section,
+.home_section,
+.bag_section,
+.keybord_section,
+.play_section,
+.watch_section,
+.laptop_section,
+.experiance_section,
+.twiter_section{
+    flex-direction: column;
+}
+.watch_info{
+text-align: center;
+}
+.laptop_section{
+    /* background-size: 350px 150px; */
+    background-size: 80% 40%;
+}
+.home_section{
+    padding-block: 3rem;
+  }
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "home home home home home home home home home home"
+        "phone phone phone phone phone phone phone phone phone phone"
+                "keybord keybord keybord keybord keybord keybord keybord keybord keybord keybord "
+                "play play play play play play play play play play"
+                "tv tv tv tv tv tv tv tv tv tv"
+                "twiter twiter twiter twiter twiter twiter twiter twiter twiter twiter "
+                "laptop laptop laptop laptop laptop laptop laptop laptop laptop laptop"
+                "bag bag bag bag bag bag bag bag bag bag"
+        "experiance experiance experiance experiance experiance experiance experiance experiance experiance experiance"
+        "watch watch watch watch watch  watch watch watch watch watch "
+        ;
+      
+      }
+      .tv_img{
+        /* width: 100%; */
+        transform: translateX(-60%)  translateY(0);
+    }
+    .home_section h1{
+        max-width: 450px;
+        text-align: center;
+     margin-top: 1rem;
+     font-family: var(--h4_font_family);
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .phone_img{
+    align-self: flex-end;
+    margin-bottom: -1.5rem;
+        
+    }
+
+    .watch_img{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+    }
+    .watch_img img{
+        width: 80%;
+        transform: translateX(-3.5rem);
+    }
+    .watch_info h2{
+        font-weight: 600;
+        font-family: var(--h4_font_family);
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 300px;
+        margin-top: 0;
+    }
+    .laptop_img img{
+        width: 90%;
+        display: block;
+        transform: translateX(-20px);
+    }
+
+}
+
+
+
+
+
+/* md */
+@media  screen and (min-width:478px) and (max-width:990px){
+    .md_100{
+        width: 100%;
+    }
+    .md_50{
+        width: 50%;
+    }
+    .md_33{
+        width: 33%;
+    }
+    .md_25{
+        width: 25%;
+    }
+
+
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-areas: 
+        "home home home home home home home home home home"
+        "phone phone phone phone phone phone phone phone phone phone"
+                "keybord keybord keybord keybord keybord play play play play play"
+                /* "play play play play play " */
+                "tv tv tv tv tv tv tv tv tv tv"
+                "twiter twiter twiter twiter twiter bag bag bag bag bag"
+                "laptop laptop laptop laptop laptop bag bag bag bag bag"
+                /* "bag bag bag bag bag " */
+        "experiance experiance experiance experiance experiance experiance experiance experiance experiance experiance"
+        "watch watch watch watch watch  watch watch watch watch watch "
+        ;
+        grid-auto-rows: auto ;
+      }
+      .home_section{
+        padding-block: 3rem;
+      }
+      .home_section h1{
+        max-width: 500px;
+        font-size: 2rem;
+        line-height: 3.2rem;
+      }
+      .tv_section{
+        height: 400px;
+      }
+      .laptop_section{
+        /* background-size: 80% 60%; */
+        background-position: center 100%;
+        background-size: 80% 45%;
+        /* height: 400px; */
+      }
+      .laptop_info h2{
+        transform: translateY(-70px);
+      }
+      .laptop_img img{
+        width: 90%;
+        display: block;
+        transform: translateX(-20px);
+    }
+      .phone_info{
+        width: 38%;
+      }
+      .phone_img{
+     width: 38%;
+      }
+
+
+}
+
+
+
+
+
+
+/* lg */
+@media  screen and (min-width:1024px) {
+    .lg_100{
+        width: 100%;
+    }
+    .lg_50{
+        width: 50%;
+    }
+    .lg_33{
+        width: 33%;
+    }
+    .lg_25{
+        width: 25%;
+    }
+}
+/* xl*/
+@media  screen and (min-width:1280px) {
+    .xl_100{
+        width: 100%;
+    }
+    .xl_50{
+        width: 50%;
+    }
+    .xl_33{
+        width: 33%;
+    }
+    .xl_25{
+        width: 25%;
+    }
+}
